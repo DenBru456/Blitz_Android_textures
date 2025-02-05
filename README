@@ -13,3 +13,7 @@ r - g - b - a
 BC - convert in paint.net to TGA
 
 Don't use Nvidia Tool - worse quality
+
+
+HD textures - single resolution
+Usual textures - two times smaller res + full mip mapping 
