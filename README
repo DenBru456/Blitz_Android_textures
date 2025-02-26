@@ -10,7 +10,7 @@ ANM/NM/MISC/RM/MASK/CM
 RED-RED-RED-GREEN
 r - g - b - a
 
-BC - convert in paint.net to TGA
+BC - convert in paint.net to TGA then in PVRTexTool to astc srgb
 
 Don't use Nvidia Tool - worse quality
 
