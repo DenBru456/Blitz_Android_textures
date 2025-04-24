@@ -14,6 +14,8 @@ BC - convert in paint.net to TGA then in PVRTexTool to astc srgb
 
 Don't use Nvidia Tool - worse quality
 
+If you can't open BC in any program then convert it to tga in Nvidia Texture Tool
+
 
 HD textures - single resolution
 Usual textures - two times smaller res + full mip mapping 
