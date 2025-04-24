@@ -1,22 +1,25 @@
-Astc
+Astc OpenGL3 
 4x4 - low quality
 8x8 - best mix
 16x16 - highest
--------------------------
+
+HD textures - single resolution
+Usual textures - same res + full mip mapping 
+
 linear - non pbr
-srgb - pbr
+srgb(_BC) - pbr
 -----------------------------
+BC - convert in paint.net to TGA then in PVRTexTool to astc srgb
+
+Don't use Nvidia Tool for TexTool step - worse quality, but 
+if you can't open BC in any program then convert it to tga in Nvidia Texture Tool
+-----------------------------
+Photoshop or any photo editor that supports channel modification
 ANM/NM/MISC/RM/MASK/CM
 
 RED-RED-RED-GREEN
 r - g - b - a
--------------------
-BC - convert in paint.net to TGA then in PVRTexTool to astc srgb
+-----------------------------
 
-Don't use Nvidia Tool for TexTool step - worse quality
-------------------
-If you can't open BC in any program then convert it to tga in Nvidia Texture Tool
--------------
+-----------------------------
 
-HD textures - single resolution
-Usual textures - two times smaller res + full mip mapping 
