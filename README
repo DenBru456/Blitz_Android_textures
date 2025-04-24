@@ -12,7 +12,7 @@ r - g - b - a
 
 BC - convert in paint.net to TGA then in PVRTexTool to astc srgb
 
-Don't use Nvidia Tool - worse quality
+Don't use Nvidia Tool for TexTool step - worse quality
 
 If you can't open BC in any program then convert it to tga in Nvidia Texture Tool
 
