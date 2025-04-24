@@ -3,11 +3,11 @@ Astc OpenGL3
 8x8 - best mix
 16x16 - highest
 
-HD textures - single resolution
-Usual textures - same res + full mip mapping 
+name.hd.astc.pvr textures - single resolution
+name.astc.pvr - same res + full mip mapping 
 
 linear - non pbr
-srgb(_BC) - pbr
+srgb(name_BC) - pbr
 -----------------------------
 BC - convert in paint.net to TGA then in PVRTexTool to astc srgb
 
