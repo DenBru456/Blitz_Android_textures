@@ -14,11 +14,25 @@ BC - convert in paint.net to TGA then in PVRTexTool to astc srgb
 Don't use Nvidia Tool for TexTool step - worse quality, but 
 if you can't open BC in any program then convert it to tga in Nvidia Texture Tool
 -----------------------------
-Photoshop or any photo editor that supports channel modification
+
+PvrTexTool channel editor 
+
+
 ANM/NM/MISC/RM/MASK/CM
 
+
+
 RED-RED-RED-GREEN
+
 r - g - b - a
+
+
+
+Put og Alpha into r - g - b and og inverted Green to Alpha
+
+
+If og Alpha is empty then og Green to everything
+
 -----------------------------
 
 Purple or green(pbr) squares(missing textures)? Probably name issue
