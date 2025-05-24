@@ -8,9 +8,12 @@ name.astc.pvr - same res + full mip mapping
 
 linear - non pbr  
 srgb(name_BC) - pbr  
+
 -----------------------------  
+
 BC - convert in Paint.Net or Nvidia Texture Tools to TGA then in PVRTexTool to astc srgb  
 Astc to BC - ABGG  
+
 -----------------------------  
 
 PvrTexTool channel editor ![image](https://github.com/user-attachments/assets/77df45b8-8ead-4d62-ab2c-e1874d0b6760)  
