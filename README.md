@@ -24,6 +24,7 @@ Channels RGBA to R-R-R-G
 
 No Alpha at all:  
 Channels RGBA to G-G-G-G  
+
 -----------------------------
 Astc to BC - ABGG  
 -----------------------------
