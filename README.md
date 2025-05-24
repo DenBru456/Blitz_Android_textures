@@ -9,30 +9,23 @@ name.astc.pvr - same res + full mip mapping
 linear - non pbr
 srgb(name_BC) - pbr
 -----------------------------
-BC - convert in paint.net to TGA then in PVRTexTool to astc srgb
-
-Don't use Nvidia Tool for TexTool step - worse quality, but 
-if you can't open BC in any program then convert it to tga in Nvidia Texture Tool
+BC - convert in Paint.Net or Nvidia Texture Tools to TGA then in PVRTexTool to astc srgb
 -----------------------------
 
-PvrTexTool channel editor 
-
+PvrTexTool channel editor ![image](https://github.com/user-attachments/assets/77df45b8-8ead-4d62-ab2c-e1874d0b6760)
 
 ANM/NM/MISC/RM/MASK/CM
 
+With Alpha:
+Channels RGBA to A-A-A-G
 
+Without Alpha(its content in RED):
+Channels RGBA to R-R-R-G
 
-RED-RED-RED-GREEN
-
-r - g - b - a
-
-
-
-Put og Alpha into r - g - b and og inverted Green to Alpha
-
-
-If og Alpha is empty then og Green to everything
-
+No Alpha at all: 
+Channels RGBA to G-G-G-G
+-----------------------------
+Astc to BC - ABGG
 -----------------------------
 
 Purple or green(pbr) squares(missing textures)? Probably name issue
