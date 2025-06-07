@@ -23,7 +23,7 @@ or drag tool bar to top ![image](images/drag_button.png)
 
 
 
-*With Alpha:**  
+**With Alpha:**  
 Channels RGBA to A-A-A-G  
 
 **Without Alpha(its content in RED):**  
