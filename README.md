@@ -4,7 +4,7 @@ Astc OpenGL3
 16x16 - highest  
 
 name.hd.astc.pvr textures - single resolution  
-name.astc.pvr - same res + full mip mapping  
+name.astc.pvr - same(or lower if you want) res + full mip mapping  
 
 linear - non pbr  
 srgb(name_BC) - pbr  
