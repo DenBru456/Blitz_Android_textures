@@ -17,7 +17,7 @@ If you can't open BC then use Nvidia Texture Tools to convert it to TGA
 
 -----------------------------  
 
-For **ANM/NM/MISC/RM/MASK/CM**  use PvrTexTool channel editor ![image](images/channel_editor.png)  
+For **ANM/NM/MISC/RM/MASK**  use PvrTexTool channel editor ![image](images/channel_editor.png)  
 if you can't find it then press invisible button ![image](images/scroll_invisible_button.png)  
 or drag tool bar to top ![image](images/drag_button.png)  
 
