@@ -3,7 +3,7 @@ Astc OpenGL3
 8x8 - best mix  
 16x16 - highest  
 
-name.hd.astc.pvr textures - single resolution  
+name.hd.astc.pvr - single resolution  
 name.astc.pvr - same(or lower if you want) res + full mip mapping  
 
 linear - non pbr  
@@ -30,6 +30,10 @@ No Alpha at all:
 Channels RGBA to G-G-G-G  
 
 -----------------------------
+
+Note for remod makers: combine textures of same type into single one, with name of android file so android would accept it always  
+How to install mod without it: pack it into APK without dvpl format
+
 -----------------------------
 
 Purple or green(pbr) squares(missing textures)? Probably name issue  
