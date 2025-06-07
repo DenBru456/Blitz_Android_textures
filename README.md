@@ -1,4 +1,4 @@
-Astc OpenGL3  
+Astc OpenGL ES 3  
 4x4 - low quality  
 8x8 - best mix  
 16x16 - highest  
@@ -16,7 +16,9 @@ Astc to BC - ABGG
 
 -----------------------------  
 
-PvrTexTool channel editor ![image](https://github.com/user-attachments/assets/77df45b8-8ead-4d62-ab2c-e1874d0b6760)  
+PvrTexTool channel editor ![image](images/channel_editor.png)  
+if you can't find it then press invisible button ![image](images/scroll_invisible_button.png)  
+or drag tool bar to top ![image](images/drag_button.png)  
 
 ANM/NM/MISC/RM/MASK/CM  
 
@@ -27,7 +29,15 @@ Without Alpha(its content in RED):
 Channels RGBA to R-R-R-G  
 
 No Alpha at all:  
-Channels RGBA to G-G-G-G  
+Channels RGBA to G-G-G-G
+
+CM:  
+Blitz method:  
+A8: convert to A8 OpenGL  
+L8: convert to ASTC then G-G-G-G and A8 OpenGL  
+ASTC method:  
+A8: just convert  
+L8: astc then G-G-G-G  
 
 -----------------------------
 
