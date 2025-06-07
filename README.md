@@ -1,4 +1,4 @@
-**ASTC OpenGL ES 3** 
+**ASTC OpenGL ES 3**  
 4x4 - low quality  
 8x8 - best mix  
 16x16 - highest  
