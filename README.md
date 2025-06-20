@@ -24,21 +24,28 @@ or drag tool bar to top ![image](images/drag_button.png)
 
 
 **With Alpha:**  
-Channels RGBA to A-A-A-G  
+    Channels RGBA to A-A-A-G  
 
 **Without Alpha(its content in RED):**  
-Channels RGBA to R-R-R-G  
+    Channels RGBA to R-R-R-G  
 
 **No Alpha at all:**  
-Channels RGBA to G-G-G-G
+    Channels RGBA to G-G-G-G
 
 **CM:**  
-**Blitz method:**  
-A8: convert to A8 OpenGL  
-L8: convert to ASTC then G-G-G-G and A8 OpenGL  
-**ASTC method:**  
-A8: just convert  
-L8: astc then G-G-G-G  
+  **Blitz method:**  
+    A8: convert to A8 OpenGL  
+    L8: convert to ASTC then G-G-G-G and A8 OpenGL  
+  **ASTC method:**  
+    A8: convert to ASTC
+    L8: convert to ASTC then G-G-G-G  
+
+  **DX11 A8/L8 to BC3 Unorm Linear:**  
+    A8: convert to  BC3 Unorm Linear  
+    L8: convert to  BC3 Unorm Linear then G-G-G-G   
+  **BC3 to Android:**  
+    convert it to A8 or ASTC  
+
 
 -----------------------------
 
