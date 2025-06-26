@@ -11,8 +11,7 @@ UNorm srgb(name_BC) - pbr
 
 -----------------------------  
 
-**BC** - convert to TGA then in [PVRTexTool](https://developer.imaginationtech.com/solutions/) to astc srgb  
-Astc to BC - ABGG  
+**BC** - convert to TGA then in [PVRTexTool](https://developer.imaginationtech.com/solutions/) to astc srgb   
 If you can't open BC then use Nvidia Texture Tools to convert it to TGA  
 
 -----------------------------  
