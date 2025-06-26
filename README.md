@@ -1,7 +1,7 @@
 **ASTC OpenGL ES 3**  
 4x4 - low quality  
 8x8 - best mix  
-16x16 - highest  
+12x12- highest  
 
 **name.hd.astc.pvr** - single resolution  
 **name.astc.pvr** - same or lower res + full mip mapping  
