@@ -28,8 +28,6 @@ or drag tool bar to top ![image](images/drag_button.png)
 **Without Alpha(its content in RED):**  
     Channels RGBA to R-R-R-G  
 
-**No Alpha at all:**  
-    Channels RGBA to G-G-G-G
 
 **CM:**  
   **Blitz method:**  
